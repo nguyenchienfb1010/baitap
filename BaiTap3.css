@@ -1,0 +1,56 @@
+.intro {
+	width: 400px;
+	height: 800px;
+	background: #DADADA;
+	margin: 0 auto;
+}
+.intro .khung {
+	width: 400px;
+	height: 600px;
+	background:#1DC176 ;
+}
+.intro .khung::before{
+	content: "\201c";
+	font-size: 6rem;
+	font-weight: bold;
+	font-family: serif;
+	color: white;
+	position: absolute;
+}
+.intro .vuong {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 575px;
+	left:800px;
+	transform: rotate(-45deg);
+	background: #1DC176;
+	position: absolute;
+}
+.khung p {
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 30px;
+	padding-top: 50px;
+	color: white;
+}
+.intro .hinhtron {
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	background: url(https://codewebdao.com/upload/users/1/img/hinhminhhoa/css/2015/11/bo-tron-hinh-anh-bang-css/bo-goc-hinh-anh-khong-can-photoshop.jpg);
+	background-size: 100% 100% ;
+	border: 0.5rem solid white;
+	margin-top: 50px;
+	margin-left: 20px;
+	float: left;
+}
+.intro .chu p{
+	padding-top: 40px;
+	color: red;
+	padding-left: 200px
+}
+.intro .blockquote-footer {
+	padding-left: 200px;
+	padding-top: 50px;
+}
